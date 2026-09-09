@@ -1,11 +1,9 @@
+import { AppHeader } from './components/app-header'
+
 function App() {
   return (
     <>
-      <header className="app-header">
-        <p className="app-header__eyebrow">Medialog</p>
-        <h1>Tu próxima historia empieza aquí</h1>
-        <p>Explora películas y series y organiza tu biblioteca personal.</p>
-      </header>
+      <AppHeader />
 
       <main className="page-container">
         <h2>Catálogo destacado</h2>
