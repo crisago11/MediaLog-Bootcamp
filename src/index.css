@@ -73,3 +73,23 @@ body {
   border-radius: 10px;
   object-fit: cover;
 }
+
+.empty-state {
+  padding: 48px 24px;
+  border: 1px dashed #565349;
+  border-radius: 16px;
+  text-align: center;
+  color: #a9a59a;
+}
+
+.empty-state h3 {
+  margin-top: 0;
+  color: #f5f1e8;
+}
+
+.media-type-badge {
+  display: inline-flex;
+  padding: 2px 8px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+}
