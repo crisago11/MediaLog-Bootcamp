@@ -45,4 +45,14 @@ export const mediaItems: MediaItem[] = [
     releaseDate: '2023-06-02',
     posterUrl: '/posters/past-lives.svg',
   },
+  {
+    id: 6,
+    title: 'Blue Eye Samurai',
+    description:
+      'Una guerrera persigue una venganza en el Japón del periodo Edo.',
+    mediaType: 'series',
+    releaseDate: '2023-11-03',
+    posterUrl:
+      '/posters/blue-eye-samurai.svg',
+  },
 ]
