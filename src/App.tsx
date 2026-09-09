@@ -10,7 +10,11 @@ function App() {
       <main className="page-container">
         <h2>Catálogo destacado</h2>
 
-        <MediaCard data={mediaItems[0]} />
+        <div className="media-list">
+          {mediaItems.map((media) => (
+            <MediaCard key={media.id} data={media} />
+          ))}
+        </div>
       </main>
     </>
   )
