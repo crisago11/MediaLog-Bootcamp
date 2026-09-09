@@ -35,7 +35,7 @@ El proyecto se llama `MediaLog-Bootcamp`; `package.json` usa `medialog-bootcamp`
 | S01-B03 · Scaffold | `session-01-step-01-scaffold` | Template instalado y servidor abierto. |
 | S01-B05 · Pantalla estática | `session-01-step-02-static-screen` | Encabezado y tarjeta dentro de `App`. |
 | S01-B06 · Encabezado | `session-01-step-03-app-header` | `AppHeader` extraído; tarjeta todavía en `App`. |
-| S01-B07 · Tarjeta | `session-01` | `App` compone ambos componentes sin props. |
+| S01-B07 · Tarjeta | `session-01-end` | `App` compone ambos componentes sin props. |
 
 Trabaja sobre tu propia copia. Si no terminaste una extracción, retoma ese cambio antes de comenzar props en la sesión siguiente. Una copia de respaldo permite continuar, pero todavía debes explicar la transformación pendiente. No descartes tus archivos para cambiar de referencia.
 

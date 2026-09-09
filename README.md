@@ -32,13 +32,13 @@ Checkpoint: la pantalla conserva un encabezado y una tarjeta de Arrival. `App` i
 | `session-01-step-01-scaffold` | Template instalado; aún contiene la demostración de Vite. |
 | `session-01-step-02-static-screen` | Pantalla estática completa dentro de `App`. |
 | `session-01-step-03-app-header` | Encabezado extraído; tarjeta todavía dentro de `App`. |
-| `session-01` | Ambos componentes extraídos; entrada de la sesión 02. |
-| `main` | Último checkpoint final verificado. Actualmente coincide con `session-01`. |
+| `session-01-end` | Ambos componentes extraídos; entrada de la sesión 02. |
+| `main` | Último checkpoint final verificado. Actualmente coincide con `session-01-end`. |
 
 Inspeccionar una transformación sin cambiar archivos:
 
 ```bash
-git diff session-01-step-03-app-header session-01 -- src/App.tsx src/components/media-card.tsx
+git diff session-01-step-03-app-header session-01-end -- src/App.tsx src/components/media-card.tsx
 ```
 
 Para ejecutar una etapa, usa una copia limpia dedicada a consulta:
