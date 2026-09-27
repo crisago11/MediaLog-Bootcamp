@@ -13,7 +13,7 @@ export function MediaGrid(props: MediaGridProps) {
     return (
       <EmptyState
        title="Catálogo vacío"
-       description="No hay películas o series disponibles"
+       description="No hay películas o series disponibles."
        />
     )
   }

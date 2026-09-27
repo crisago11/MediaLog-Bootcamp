@@ -7,7 +7,6 @@ type MediaCardProps = {
 
 export function MediaCard(props: MediaCardProps) {
   const { data } = props
-  //const mediaTypeLabel = data.mediaType === 'movie' ? 'Película' : 'Serie' se comenta porque ahora esa decision es de MediaTypeBadge
 
   return (
     <article className="media-card">
